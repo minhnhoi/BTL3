@@ -1,8 +1,8 @@
-node*modules/
+node_modules/
 .env
-.env.\*
+.env.*
 *.log
-npm-debug.log\_
+npm-debug.log*
 .DS_Store
 Thumbs.db
 .vscode/
