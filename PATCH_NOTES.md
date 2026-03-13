@@ -28,11 +28,11 @@ Bản này giữ lại giao diện và phần lớn flow cũ, nhưng vá các đ
 - Nếu bạn có các asset như `intro.mp4`, `logo (1).png` thì đặt trong `public/`.
 
 @"
-node*modules/
+node_modules/
 .env
 .env.\*
-*.log
-npm-debug.log\_
+_.log
+npm-debug.log_
 .DS_Store
 Thumbs.db
 .vscode/
@@ -46,7 +46,9 @@ git init
 git branch -M main
 
 git remote remove origin 2>$null
-git remote add origin https://github.com/TEN-TAI-KHOAN/TEN-REPO.git <!--https://github.com/minhnhoi/project.git -->
+git remote add origin
+git remote remove origin
+git remote add origin https://github.com/minhnhoi/BTL3.git
 
 git add .
 git status
